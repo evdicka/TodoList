@@ -1,0 +1,7 @@
+namespace TodoList;
+
+public interface ITodoListLogic
+{
+    List<TodoItem> ReadAll();
+    void SaveTodoList(List<TodoItem> items);
+}
